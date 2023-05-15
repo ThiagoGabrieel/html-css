@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(0, 0, 0, 0.89);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: aliceblue;
+}
+#blaa{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(159, 3, 231, 0.308);
+}
+h2{
+    color:aliceblue;
+}
+.intermediario{
+    background-color: rgba(137, 43, 226, 0.26);
+}
+p{
+    color: white;
+}

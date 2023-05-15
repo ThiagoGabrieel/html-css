@@ -1,0 +1,17 @@
+@charset "UTF-8";
+      
+      body{
+            background-color: black;
+        }
+        h1{
+            color:white
+        }
+        h2{
+            color: purple;
+        }
+        p{
+            color:white;
+        }
+        a{
+            color: white;
+          }
