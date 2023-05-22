@@ -60,6 +60,9 @@ section.part-One p{
     display: block;
 
 }
+.imagens p{
+    background-color: black;
+}
 section#img1{
     background-image: url('imagens/pexels-pixabay-54267.jpg')
 }
