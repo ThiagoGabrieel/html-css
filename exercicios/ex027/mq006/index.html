@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="icon"><ion-icon name="menu-outline" onclick="clickMenu()"></ion-icon></span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Vdd</a></li>
+                <li><a href="#">Nao</a></li>
+                <li><a href="#">Sim</a></li>
+                <li><a href="#">Sla</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Query</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa natus, asperiores ex, harum accusantium aliquid perferendis fuga praesentium quam dicta temporibus consectetur sequi similique, reiciendis recusandae dolore magnam ut fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magni, libero ratione asperiores aperiam, explicabo reiciendis et nulla voluptate impedit recusandae aliquid praesentium inventore ut deserunt, quo qui eos facilis.</p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam quisquam impedit quod nulla expedita consequatur possimus at perferendis ut, earum minima aspernatur, sint quaerat suscipit modi veniam consectetur eum tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nihil, officiis veniam autem laboriosam a eligendi. Ipsa pariatur nulla iste nihil, harum error beatae quidem quisquam velit necessitatibus, ab numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis rerum odio nemo incidunt commodi voluptates provident. Voluptatibus vero ea alias recusandae aliquam enim sequi nesciunt! Consequuntur voluptates possimus praesentium earum.</p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed eaque culpa ducimus? Ipsum consectetur nisi illum repellendus. Dignissimos neque provident ratione nihil voluptate sunt, quo dolores laudantium velit exercitationem? Tenetur.</p>
+        </article>
+    </main>
+
+    <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" > </script> 
+
+    <script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>
+
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'none'){
+                itens.style.display = 'block';
+            } else{
+                itens.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
